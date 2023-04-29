@@ -1,0 +1,39 @@
+.Header {
+  background: black;
+  color: white;
+  display: flex;
+  height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px 15px 5px 45px;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 500px;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.36);
+  font-weight: bold;
+}
+
+.title {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.languageSwitcher {
+  text-align: center;
+  margin-right: 30px;
+  /* margin: 2px 30px; */
+  border: 2px solid white;
+  padding: 5px;
+  margin: 5px 30px 5px 5px;
+  font-size: 12px;
+  width: 18px;
+  cursor: pointer;
+}
+.languageSwitcher:hover {
+  color: #444;
+  border-color: #444;
+}
